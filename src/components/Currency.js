@@ -19,7 +19,7 @@ const Currency = () => {
             <button className="btn btn-secondary dropdown-toggle" type="button" id="currencyMenu" data-bs-toggle="dropdown" aria-expanded="false">
                 Currency ({name})
             </button>
-            <ul className="dropdown-menu" aria-labelledby="currencyMenu">
+            <ul className="dropdown-menu" aria-labelledby="currencyMenu" id="currencyChoices">
                     <li><option  className="dropdown-item" value="$ Dollar" name="dollar" onClick={(event) => submitEvent(event.target.value)}>$ Dollar</option></li>
                     <li><option  className="dropdown-item" value="£ Pound" name="pound" onClick={(event) => submitEvent(event.target.value)}>£ Pound</option></li>
                     <li><option  className="dropdown-item" value="€ Euro" name="Euro" onClick={(event) => submitEvent(event.target.value)}>€ Euro</option></li>
