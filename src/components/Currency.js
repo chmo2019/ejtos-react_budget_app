@@ -4,7 +4,7 @@ import bootstrap from 'bootstrap';
 
 const Currency = () => {
     const { dispatch, currency } = useContext(AppContext);
-    const [name, setName] = useState("$ Dollar");
+    const [name, setName] = useState("£ Pound");
     
     const submitEvent = (name) => {
         setName(name);
