@@ -20,10 +20,10 @@ const Currency = () => {
                 Currency ({name})
             </button>
             <ul className="dropdown-menu" aria-labelledby="currencyMenu" id="currencyChoices">
-                    <li><option  className="dropdown-item" value="$ Dollar" name="dollar" onClick={(event) => submitEvent(event.target.value)}>$ Dollar</option></li>
-                    <li><option  className="dropdown-item" value="£ Pound" name="pound" onClick={(event) => submitEvent(event.target.value)}>£ Pound</option></li>
-                    <li><option  className="dropdown-item" value="€ Euro" name="Euro" onClick={(event) => submitEvent(event.target.value)}>€ Euro</option></li>
-                    <li><option  className="dropdown-item" value="₹ Rupee" name="Rupee" onClick={(event) => submitEvent(event.target.value)}>₹ Rupee</option></li>
+                <li><option className="dropdown-item" value="$ Dollar" name="dollar" onClick={(event) => submitEvent(event.target.value)}>$ Dollar</option></li>
+                <li><option className="dropdown-item" value="£ Pound" name="pound" onClick={(event) => submitEvent(event.target.value)}>£ Pound</option></li>
+                <li><option className="dropdown-item" value="€ Euro" name="Euro" onClick={(event) => submitEvent(event.target.value)}>€ Euro</option></li>
+                <li><option className="dropdown-item" value="₹ Rupee" name="Rupee" onClick={(event) => submitEvent(event.target.value)}>₹ Rupee</option></li>
             </ul>
         </div>
     );
