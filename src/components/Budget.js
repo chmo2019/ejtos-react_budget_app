@@ -25,10 +25,10 @@ const Budget = () => {
         setNewBudget(event.target.value);
     }
     return (
-<div className='alert alert-secondary'>
-<span>Budget: £{budget}</span>
-<input type="number" step="10" value={newBudget} onChange={handleBudgetChange}></input>
-</div>
+        <div className='alert alert-secondary'>
+        <label for="budget">Budget: £ </label>
+        <input id="budget" type="number" step="10" value={newBudget} onChange={handleBudgetChange}></input>
+        </div>
     );
 };
 export default Budget;
