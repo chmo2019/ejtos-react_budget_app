@@ -41,9 +41,10 @@
   background-color: rgb(165, 229, 165);
   border-style: none;
   border-radius: 4px;
-  height: 40px;
-  width: 170px;
+  height: 45px;
+  width: 192px;
   text-align: left;
+  font-size: 18px;
 }
 
 #currencyChoices {
