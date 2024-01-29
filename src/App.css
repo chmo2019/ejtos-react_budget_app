@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+#currencyMenu {
+  background-color: rgb(165, 229, 165);
+  border-style: none;
+  border-radius: 4px;
+  height: 40px;
+  width: 170px;
+  text-align: left;
+}
+
+#currencyChoices {
+  background-color: rgb(165, 229, 165);
+  border-color: rgb(5, 172, 5);
+  border-width: 0.05cm;
+  padding-left: 5px;
+}
