@@ -41,7 +41,7 @@ const AllocationForm = (props) => {
                     <div className="input-group-prepend">
                 <label className="input-group-text" htmlFor="inputGroupSelect01">Department</label>
                   </div>
-                  <select className="custom-select" id="inputGroupSelect01" onChange={(event) => setName(event.target.value)}>
+                  <select className="custom-select" id="inputGroupSelect01" onChange={(event) => setName(event.target.value)} style={{backgroundColor: 'white', borderWidth: "1px", borderStyle: "solid", borderColor: "grey"}}>
                         <option defaultValue>Choose...</option>
                         <option value="Marketing" name="marketing"> Marketing</option>
                 <option value="Sales" name="sales">Sales</option>
@@ -54,18 +54,18 @@ const AllocationForm = (props) => {
                     <div className="input-group-prepend" style={{ marginLeft: '2rem' }}>
                 <label className="input-group-text" htmlFor="inputGroupSelect02">Allocation</label>
                   </div>
-                  <select className="custom-select" id="inputGroupSelect02" onChange={(event) => setAction(event.target.value)}>
+                  <select className="custom-select" id="inputGroupSelect02" onChange={(event) => setAction(event.target.value)} style={{backgroundColor: 'white', borderWidth: "1px", borderStyle: "solid", borderColor: "grey"}}>
                         <option defaultValue value="Add" name="Add">Add</option>
                 <option value="Reduce" name="Reduce">Reduce</option>
                   </select>
                     <div>
-                        <label for="cost" style={{ marginLeft: '2rem'}}>{currency}</label>
+                        <label for="cost" style={{ marginLeft: '1rem', marginRight: '7px'}}>{currency}</label>
                         <input
                             required='required'
                             type='number'
                             id='cost'
                             value={cost}
-                            style={{size: 10}}
+                            style={{size: 10, width: "170px", height:"35px", borderStyle: 'inset', borderWidth: '2px', borderColor: 'black'}}
                             onChange={(event) => setCost(event.target.value)}>
                         </input>
                     </div>
